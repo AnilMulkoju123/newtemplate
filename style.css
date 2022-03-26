@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    
+    background-color: red;
+}
+header .h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:30px;
+    border-bottom: 1px solid white;
+}
+header .h1 .logo{
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+    margin: 0 100px;
+}
+header .h1 .login{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    margin: 0 100px;;
+}
+header .h2{
+    height:30px;
+    background-color: coral;
+}
+.main{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aside{
+    border:1px solid white;
+    width:20%
+}
+section{
+    width:79%;
+    border:1px solid white;
+    text-align: center;
+    color:white;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.products .product{
+    border-radius: 10px;
+    height:300px;
+    width:250px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+.products .product img{
+    object-fit:contain;
+    overflow: auto;
+    max-width: 100%;
+    height:70%
+}
+.products .product .details{
+    height:30%;
+    
+}
+.products .product .details button{
+    width:100%;
+    object-fit: cover;
+    max-height:100%;
+    padding:5px;
+}
+footer{
+    height:70px;
+    background-color: goldenrod;
+}
